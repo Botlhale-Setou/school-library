@@ -17,6 +17,7 @@ This is an example of how you may give instructions on setting up your project l
   - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -69,6 +70,15 @@ A basic understanding of Ruby and Git
 - GitHub: [@botlhale-setou](https://github.com/Botlhale-Setou)
 - Twitter: [@botlhale_setou](https://twitter.com/Botlhale_Setou)
 - LinkedIn: [@botlhalesetou](https://www.linkedin.com/in/botlhalesetou/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **GUI**
+- [ ] **Mobile version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
