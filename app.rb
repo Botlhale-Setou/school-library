@@ -34,7 +34,7 @@ class App
     # rubocop:disable Lint/UselessAssignment
     print 'Does the student have parental permission? (true/false): '
     permitted = gets.chomp
-    # rubocop:enable 
+    # rubocop:enable Lint/UselessAssignment
     @people.push(Student.new('classroom', age, name))
     puts "#{name.capitalize} was added as a student successfully"
   end
