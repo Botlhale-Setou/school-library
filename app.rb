@@ -36,6 +36,8 @@ class App
       name = gets.chomp
       print 'Enter the student\'s age: '
       age = gets.chomp
+      print 'Does the student have parental permission? (true/false): '
+      permitted = gets.chomp
       @people.push(Student.new('classroom', age, name))
       puts "#{name.capitalize} was added as a student successfully"
     when 2
@@ -45,7 +47,7 @@ class App
       age = gets.chomp
       print 'Enter the teacher\'s specialization: '
       specialization = gets.chomp
-      @people.push(Teacher.new(specialization, age, name))
+      @people.push(Teacher.new(specialization, name, age))
       puts "#{name.capitalize} was added as a teacher successfully"
     end
   end
