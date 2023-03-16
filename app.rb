@@ -26,15 +26,15 @@ class App
     end
   end
 
-  # rubocop:disable Lint/UselessAssignment
   def create_student
     print 'Enter the student name: '
     name = gets.chomp
     print 'Enter the student\'s age: '
     age = gets.chomp
+    # rubocop:disable Lint/UselessAssignment
     print 'Does the student have parental permission? (true/false): '
     permitted = gets.chomp
-    permitted = permitted.downcase
+    # rubocop:enable 
     @people.push(Student.new('classroom', age, name))
     puts "#{name.capitalize} was added as a student successfully"
   end
