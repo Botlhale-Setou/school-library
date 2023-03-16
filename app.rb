@@ -26,6 +26,7 @@ class App
     end
   end
 
+  # rubocop:disable Lint/UselessAssignment
   def create_student
     print 'Enter the student name: '
     name = gets.chomp
