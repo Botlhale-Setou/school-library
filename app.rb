@@ -36,7 +36,7 @@ class App
       name = gets.chomp
       print 'Enter the student\'s age: '
       age = gets.chomp
-      @people.push(Student.new('classroom', name, age))
+      @people.push(Student.new('classroom', age, name))
       puts "#{name.capitalize} was added as a student successfully"
     when 2
       print 'Enter the teacher name: '
@@ -45,7 +45,7 @@ class App
       age = gets.chomp
       print 'Enter the teacher\'s specialization: '
       specialization = gets.chomp
-      @people.push(Teacher.new(specialization, name, age))
+      @people.push(Teacher.new(specialization, age, name))
       puts "#{name.capitalize} was added as a teacher successfully"
     end
   end
