@@ -22,7 +22,7 @@ class App
   def list_all_people
     puts 'There are no people in the list. Kindly add at least one person' if @people.empty?
     @people.each_with_index do |person, index|
-      puts "(#{index + 1}) [#{person.class}] => Id: #{person.id}, Name: #{person.name}, Age: #{person.age}"
+      puts "(#{index + 1}) [#{person.class}] => Id: #{person.id}, Name: #{person.age}, Age: #{person.name}"
     end
   end
 
